@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traductor Genesiano v.2</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Traductor Genesiano v.2</h1>
+
+        <img
+            src="static/Full_Artist_Signature.png"
+            class="logo"
+            alt="Signature Logo"
+        >
+    </div>
+
+    <div class="translator-layout">
+
+        <div class="textbox-container">
+            <h3>Texto a Traducir (Español):</h3>
+
+            <textarea
+                id="input-box"
+                placeholder="Escribe aquí..."
+            ></textarea>
+        </div>
+
+        <div class="button-container">
+            <button id="translate-btn">
+                Processar
+            </button>
+        </div>
+
+        <div class="textbox-container">
+            <h3>Resultado (Genesiano):</h3>
+
+            <textarea
+                id="output-box"
+                class="output-font"
+                readonly
+            ></textarea>
+        </div>
+
+    </div>
+
+    <div class="info-section">
+        <h3>¿Que es esto?</h3>
+
+        <p>
+            Traductor Genesiano v.2 es un algoritmo de transliteración que conforma el español al sistema de escritura más utilizado en el mundo ficticio de Genesia; el fíngi.
+            <br><br>
+            Esta lengua, también conocida simplemente como genesiano, fue creada junto con sus reglas y el algoritmo que las aplica por J. A. Huegel a partir de 2022.
+            <br><br>
+            El propósito detrás de la creación este traductor, fue el adentrarse en los mundos de las tipografías digitales y el desarrollo web para el proyecto Integrador 2026.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
