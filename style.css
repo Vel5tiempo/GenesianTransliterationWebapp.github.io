@@ -60,6 +60,11 @@ p {
     font-size: 24px;
 }
 
+.creator-info {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(130, 130, 255);
+}
+
 .translator-layout {
     display: flex;
     align-items: center;
