@@ -41,6 +41,11 @@ body {
     margin-bottom: 30px;
 }
 
+.info-section{
+    color: blue;
+    
+}
+
 .logo {
     height: 120px;
     width: auto;
@@ -58,11 +63,6 @@ h3 {
 
 p {
     font-size: 24px;
-}
-
-.creator-info {
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(130, 130, 255);
 }
 
 .translator-layout {
