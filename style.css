@@ -1,6 +1,12 @@
 @font-face {
     font-family: 'Genesiano';
     src: url('static/Genesiano-Romance(v.3).otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'Blackadder ITC';
+    src: url('static/Blackadder ITC Std Regular.otf') format('opentype');
 }
 
 html, body {
